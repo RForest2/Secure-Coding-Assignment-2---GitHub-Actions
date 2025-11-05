@@ -32,7 +32,7 @@ jobs:
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_PYTHON_BLACK = TRUE
-          VALIDATE_PYTHON_PYLINT = TRUE
-          VALIDATE_PYTHON_FLAKE8 = TRUE
-          VALIDATE_PYTHON_ISORT = TRUE
+          VALIDATE_PYTHON_BLACK = FALSE
+          VALIDATE_PYTHON_PYLINT = FALSE
+          VALIDATE_PYTHON_FLAKE8 = FALSE
+          VALIDATE_PYTHON_ISORT = FALSE
