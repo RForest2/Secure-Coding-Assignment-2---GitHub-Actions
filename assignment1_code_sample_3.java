@@ -14,7 +14,7 @@ public class VulnerableApp {
     private static final String DB_PASSWORD = "secret123";
 
     public static String getUserInput() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); 
         System.out.print("Enter your name: ");
         return scanner.nextLine();
     }
